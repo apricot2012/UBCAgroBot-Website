@@ -778,6 +778,55 @@ a.navbar-item:hover{
   line-height: 64px;
   margin: 30px auto;
 }
+
+.pricing-table .icon-br {
+  font-size: 26px;
+  color: #cf9c44;
+  border: 1px solid #cf9c44;
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin: 30px auto;
+}
+
+.pricing-table .icon-sl {
+  font-size: 26px;
+  color: #c0c0c0;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin: 30px auto;
+}
+
+.pricing-table .icon-gd {
+  font-size: 26px;
+  color: #ffb700;
+  border: 1px solid #ffb700;
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin: 30px auto;
+}
+
+.pricing-table .icon-dm {
+  font-size: 26px;
+  color: #33b9de;
+  border: 1px solid #33b9de;
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin: 30px auto;
+}
+
 .pricing-table .pricing-details h2 {
   font-size: 22px;
   font-weight: 600;
@@ -791,6 +840,39 @@ a.navbar-item:hover{
   color: #21d948;
   margin-bottom: 20px;
 }
+
+.pricing-table .pricing-details .br-txt span {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  color: #cf9c44;
+  margin-bottom: 20px;
+}
+
+.pricing-table .pricing-details .sl-txt span {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+.pricing-table .pricing-details .gd-txt span {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffb700;
+  margin-bottom: 20px;
+}
+
+.pricing-table .pricing-details .dm-txt span {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  color: #33b9de;
+  margin-bottom: 20px;
+}
+
 .pricing-table .pricing-details ul {
   margin-bottom: 35px;
 }
@@ -1094,6 +1176,12 @@ footer {
 }
 .twitter a:hover {
   background: #1da1f2;
+}
+.instagram a {
+  color: #E1306C;
+}
+.instagram a:hover {
+  background: #E1306C;
 }
 .google-plus a {
   color: #dd4d42;

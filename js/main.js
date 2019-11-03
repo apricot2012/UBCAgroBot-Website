@@ -1,4 +1,4 @@
-/* 
+/*
    CounterUp
    ========================================================================== */
     jQuery(document).ready(function( $ ) {
@@ -7,14 +7,14 @@
       });
     });
 
-/* 
+/*
    MixitUp
    ========================================================================== */
     $(function(){
       $('#portfolio').mixItUp();
     });
 
-/* 
+/*
    Touch Owl Carousel
    ========================================================================== */
     $(".touch-slider").owlCarousel({
@@ -31,7 +31,7 @@
     $('.touch-slider').find('.owl-prev').html('<i class="fa fa-chevron-left"></i>');
     $('.touch-slider').find('.owl-next').html('<i class="fa fa-chevron-right"></i>');
 
-/* 
+/*
    Sticky Nav
    ========================================================================== */
     $(window).on('scroll', function() {
@@ -42,7 +42,7 @@
         }
     });
 
-/* 
+/*
    VIDEO POP-UP
    ========================================================================== */
     $('.video-popup').magnificPopup({
@@ -54,7 +54,7 @@
         fixedContentPos: false,
     });
 
-/* 
+/*
    Back Top Link
    ========================================================================== */
     var offset = 200;
@@ -74,21 +74,21 @@
       return false;
     })
 
-/* 
+/*
    One Page Navigation & wow js
    ========================================================================== */
   jQuery(function($) {
       //Initiat WOW JS
       new WOW().init();
 
-      // one page navigation 
+      // one page navigation
       $('.main-navigation').onePageNav({
               currentClass: 'active'
-      });    
+      });
   });
 
   jQuery(document).ready(function() {
-     
+
       $('body').scrollspy({
           target: '.navbar-collapse',
           offset: 195
@@ -106,7 +106,7 @@
 
   /* Nivo Lightbox
   ========================================================*/
-  jQuery(document).ready(function( $ ) {    
+  jQuery(document).ready(function( $ ) {
      $('.lightbox').nivoLightbox({
       effect: 'fadeScale',
       keyboardNav: true,
@@ -124,7 +124,7 @@
     });
   });
 
-/* 
+/*
    Page Loader
    ========================================================================== */
    $(window).load(function() {
