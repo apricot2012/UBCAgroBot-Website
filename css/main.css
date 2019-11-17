@@ -1068,13 +1068,20 @@ a.navbar-item:hover{
 #contact {
   background: #f2f2f2;
 }
+#contact .contact-block  .section-header {
+  padding: 15px;
+
+}
+
 #contact .contact-block {
   background: #fff;
   padding: 30px;
   overflow: hidden;
+  text-align: center;
+
 }
-#contact #contactForm {
-  margin-top: 30px;
+#contact .contact-block a{
+    display: inline-block;
 }
 .text-danger {
   font-size: 14px;
