@@ -38,7 +38,7 @@
                 <div class="navbar-link">
                 <a href="#pricing" class="navbar-item"> Sponsor</a>
                 <a href="#contact" class="navbar-item"> Contact</a>
-                <a href="#footer" class="navbar-item"> About</a>
+                <a href="#features" class="navbar-item"> About</a>
               </div>
             </div>
           </div>
@@ -49,8 +49,9 @@
           <div class="col-md-10">
             <div class="contents text-center">
               <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">UBC AgroBot Design Team</h1>
-              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">We are UBC's first team.. We are a diverse team of students from across different engineering disciplines.
-                With a shared passion for innovation and technology, we hope to contribute to the future of agriculture, in transitioning from human labour to full automation.</p>
+              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">
+                 We are a diverse team of students from across different engineering disciplines.
+                With a shared passion for innovation and technology, we hope to explore robotics in farming, contributing to the future of agriculture in transitioning from human labour to full automation.</p>
               <a href="#services" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"> Learn more</a>
             </div>
           </div>
@@ -68,6 +69,7 @@
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">As the world population grows, climate change continues and reliable human labour becomes increasingly expensive, we must find more efficient and sustainable ways to grow food and sustain ourselves. The UBC AgroBot team will be building a fully autonomous robot capable of analyzing its environment and performing targeted weeding, fertilizing and soil analysis though the use of advanced robotics, image recognition and machine learning. </p>
         </div>
+
         <div class="row">
           <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
@@ -75,7 +77,7 @@
                 <i class="lnr lnr-eye"></i>
               </div>
               <h4>Image Recognition</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <p>We intend to use the Tensorflow object identification module, training and fine-tuning our own recognition model for crops and weeds</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -84,7 +86,7 @@
                 <i class="lnr lnr-cog"></i>
               </div>
               <h4>Advanced Robotics</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <p>We will be engineering the specific mechanics of the AgroBot, designing the chasis and exterminating mechanism, ultimately integrating them with the Robot Operating System</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -93,7 +95,7 @@
                 <i class="lnr lnr-keyboard"></i>
               </div>
               <h4>Machine learning</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <p>We will utilize the latest technology in machine learning to help us construct an autonomous image recognition system and a navigation system
             </div>
           </div>
         </div>
@@ -101,18 +103,34 @@
     </section>
     <!-- Services Section End -->
 
-    <!-- Lightbox Section -->
-    <section class="video-promo section" data-stellar-background-ratio="0.5">
-    <div class="overlay-lightbox"></div>
-      <div class="container">
-        <div class="row">
+    <!-- Carousel Section -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="overlay"></div>
+          </div>
+
+          <div class="carousel-item carousel-image-2">
+            <div class="overlay"></div>
+          </div>
+
+          <div class="carousel-item carousel-image-3">
+          </div>
         </div>
+
       </div>
     </section>
 
 
+
     <!-- Features Section Start -->
-    <section id="features" class="section" data-stellar-background-ratio="0.2">
+    <section id="challenge" class="section" data-stellar-background-ratio="0.2">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">The <span>Challenge</span></h2>
@@ -123,6 +141,27 @@
           <p class ="section-subtitle wow fadeIn" data-wow-duration="200ms" data-wow-delay= "0.2s">Upon identification of the corn plant, the machine should determine if the plant is healthy or in distress which requires fertilizer to be applied by the machine.
             Upon identification of a weed, the machine should eradicate the weed chemically and/or mechanically. The competition will be judged by reputable members of the agricultural technology industry, such as The Climate Corporation (Monsanto), and Blue River Technology.</p>
         </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Section -->
+    <section class="video-promo section" data-stellar-background-ratio="0.5">
+    <div class="overlay-lightbox"></div>
+      <div class="container">
+        <div class="row">
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section" data-stellar-background-ratio="0.2">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">The <span>Team</span></h2>
+          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+        </div>
+        <div class="text-center  mb-5">
+          <img src="img/Team_Photo.jpg" alt="Team Photo" />
+        </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="content-left text-right wow fadeInLeft animated" data-wow-offset="10">
@@ -130,18 +169,18 @@
                 <span class="icon">
                   <i class="lnr lnr-map-marker"></i>
                 </span>
-                <div class="text">
+                <div class="text-left">
                   <h4>Navigation System Team</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>The navigation team is dedicated towards the realization of an automatic navigation and positioning system for the robot</p>
                 </div>
               </div>
               <div class="box-item left">
                 <span class="icon">
-                  <i class="lnr lnr-camera-video"></i>
+                  <i class="lnr lnr-camera-video "></i>
                 </span>
-                <div class="text">
+                <div class="text-left">
                   <h4>Image Recognition System Team </h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>The image recognition team works with algorithms closely, in order to train an efficient and accurate crop recognition model</p>
                 </div>
               </div>
 
@@ -159,18 +198,18 @@
                 <span class="icon">
                   <i class="lnr lnr-cog"></i>
                 </span>
-                <div class="text">
+                <div class="text-right">
                   <h4>Chassis Design Team </h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <p>The chassis team will design the basic frame that the AgroBot runs on, giving AgroBot the ability to steer and maneuver </p>
                 </div>
               </div>
               <div class="box-item right">
                 <span class="icon">
                   <i class="lnr lnr-bug"></i>
                 </span>
-                <div class="text">
+                <div class="text-right">
                   <h4>Exterminating Mechanisms Team</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>The exterminating mechanisms team devises the optimal strategy to exterminating weed and fertilizing crops, minimizing chemical use </p>
                 </div>
               </div>
             </div>
@@ -470,9 +509,8 @@ Participation in the agBot Challenge will also provide us and our sponsors great
           <div class="col-md-12">
             <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
               <ul>
-                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/UBCAgroBot/"><i class="fa fa-facebook"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/agrogramubc/"><i class="fa fa-instagram"></i></a></li>
                 <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
               </ul>
             </div>
@@ -519,5 +557,12 @@ Participation in the agBot Challenge will also provide us and our sponsors great
     <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
 
+    <script>
+
+    $('.carousel').carousel({
+      interval: 4000,
+      pause: 'hover'
+    });
+    </script>
   </body>
 </html>
