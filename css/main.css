@@ -224,7 +224,7 @@ a.navbar-item:hover{
    Hero Area Style
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background: url('/img/blog/blog-header.jpg') fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -236,7 +236,7 @@ a.navbar-item:hover{
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
+  background: #21d948;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -246,11 +246,11 @@ a.navbar-item:hover{
 #hero-area .contents h1 {
   color: #fff;
   font-size: 50px;
-  font-weight: 100;
+  font-weight: 700;
   margin-bottom: 25px;
 }
-#hero-area .contents p {
-  font-size: 14px;
+#hero-area .contents .date p {
+  font-size: 20px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
@@ -1010,6 +1010,10 @@ a.navbar-item:hover{
 /* ==========================================================================
    Blog
    ========================================================================== */
+#blog {
+  background: #f2f2f2;
+}
+
 #blog .blog-item-wrapper {
   background: #fff;
   border-radius: 0px;
@@ -1078,12 +1082,43 @@ a.navbar-item:hover{
   color: #333;
 }
 #blog .blog-item-text h3 a:hover {
-  color: #4676fa;
+  color: #57a828;
 }
 #blog .blog-item-text p {
   line-height: 25px;
   margin-bottom: 20px;
 }
+
+/* ==========================================================================
+   Blog Page
+   ========================================================================== */
+#blogpage {
+  background: #f2f2f2;
+}
+
+#blogpage .contents p {
+  font-family: Open Sans, Helvetica, sans-serif;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#blogpage .contents ul {
+  margin-bottom: 20px;
+}
+#blogpage .contents img {
+  margin: 20px;
+  width: 80%;
+  height: auto;
+}
+
+#blogpage .contents ul li {
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 30px;
+  list-style-type: disc;
+}
+
 /* ==========================================================================
     Contact Us
     ========================================================================== */
@@ -1162,7 +1197,7 @@ a.navbar-item:hover{
   color: #fff;
   top: 0;
   height: 50px;
-  background: #4676fa;
+  background: #57a828;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -1288,7 +1323,7 @@ footer {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
-  background: #4676fa;
+  background: #98e887;
   text-transform: uppercase;
   border: none;
   padding: 7px 16px;
@@ -1318,7 +1353,7 @@ footer {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #4676fa;
+  background-color: #57a828;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
