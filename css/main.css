@@ -511,6 +511,17 @@ a.navbar-item:hover{
 #features .show-box img {
   width: 100%;
 }
+
+#features img{
+  width: 100%;
+  height: auto;
+}
+
+#features .row img{
+  width: 100%;
+  height: auto;
+}
+
 /* ==========================================================================
    Screenshots Section Start
    ========================================================================== */
