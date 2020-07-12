@@ -1,6 +1,6 @@
 # UBC AgroBot Website
 
-This is the Github Pages repo for the official website of UBC AgroBot, [ubcagrobot.com](https://www.ubcagrobot.com).
+This is the Github Pages repo for the official website of UBC AgroBot, [ubcagrobot.com](https://ubcagrobot.com).
 
 ## Information About Website
 
