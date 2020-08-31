@@ -503,10 +503,7 @@ a.navbar-item:hover{
   color: #ffffff;
 }
 #features .show-box {
-  padding: 20px 70px 40px;
-}
-#features .show-box image{
-  padding-bottom: 20px;
+  padding: 30px 70px 40px;
 }
 #features .show-box img {
   width: 100%;
@@ -1018,6 +1015,22 @@ a.navbar-item:hover{
 .btn i {
   margin-right: 5px;
 }
+
+
+/* ==========================================================================
+    Recruitment
+   ========================================================================== */
+
+#recruitment {
+  background: #f2f2f2;
+}
+
+#recruitment img {
+  margin-top: 100px;
+  width: 70%;
+  height: auto;
+}
+
 /* ==========================================================================
    Blog
    ========================================================================== */
@@ -1101,7 +1114,7 @@ a.navbar-item:hover{
 }
 
 /* ==========================================================================
-   Blog Page
+   Blog Page style
    ========================================================================== */
 #blogpage {
   background: #f2f2f2;
