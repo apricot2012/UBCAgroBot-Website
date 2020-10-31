@@ -404,22 +404,29 @@ a.navbar-item:hover{
    Carousel Section Style
    ========================================================================== */
 #showcase   .carousel-item {
-  height: 300px;
+    height: 300px;
 }
 #showcase .carousel-image-1 {
-     background: url('/img/Botimg1.png');
+      background: url('/img/website_banner_black.png');
      background-size: cover;
+
    }
 
 #showcase   .carousel-image-2 {
-      background: url('/img/Workimg1.jpg');
+      background: url('/img/website_banner_black.png');
      background-size: cover;
    }
 
 #showcase   .carousel-image-3 {
-      background: url('/img/Boardimg1.jpg');
+      background: url('/img/website_banner_black.png');
      background-size: cover;
    }
+
+   #showcase   .carousel-image-4 {
+         background: url('/img/website_banner_black.png');
+        background-size: cover;
+      }
+
 
 
 /* ==========================================================================
